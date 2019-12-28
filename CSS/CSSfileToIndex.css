@@ -2,13 +2,17 @@ body{
 	margin: 0;
 }
 header{
-	background-color: #A3579D;
+	background-color: #B11725;
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 header h1{
 	color: black;
+	font-family: Helvetica
 }
 header img{
-	border-radius: 150px;
+	border-radius: 300px;
+	border: 2px solid black;
 }
