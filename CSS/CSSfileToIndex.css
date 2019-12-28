@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+}
+header{
+	background-color: #A3579D;
+	text-align: center;
+}
+
+header h1{
+	color: black;
+}
+header img{
+	border-radius: 150px;
+}
