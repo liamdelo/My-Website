@@ -1,18 +1,49 @@
 body{
 	margin: 0;
+	font-family: Helvetica, serif;
+	text-align: left;
+	background-color: beige;
+
 }
 header{
 	background-color: #B11725;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	max-width: 100%;
+}
+
+h1, h2{
+	font-family: Playfair Display;
+}
+h2{
+	font-size: 30px;
 }
 
 header h1{
 	color: black;
-	font-family: Helvetica
 }
 header img{
 	border-radius: 300px;
 	border: 2px solid black;
+	max-width: 100%;
+}
+
+main{
+	max-width: 100%;
+	padding:20px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+main img{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 100%;
+	padding: 20px;
+	text-align: center;
 }
