@@ -11,7 +11,6 @@ header{
 	padding-top: 50px;
 	padding-bottom: 20px;
 	font-size: 30px;
-	max-width: 100%;
 }
 
 h1, h2{
@@ -31,10 +30,9 @@ header img{
 }
 
 main{
-	max-width: 100%;
+	max-width: 800px;
 	padding:20px;
 	margin: 0 auto;
-	text-align: center;
 	font-family: 'Dancing Script', cursive;
 	font-size: 20px;
 	line-height: 30px;
@@ -44,6 +42,21 @@ main img{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	max-width: 100%;
-	padding: 20px;
+	padding: 0 auto;
 	text-align: center;
+}
+
+a{
+	color: black;
+	text-align: center;
+}
+/* Was für funktionen gibt es sonst noch im html*/
+a:hover{
+	color: purple;
+}
+footer{
+	text-align: left;
+	color: grey;
+	padding-left: 40px;
+	font-style: italic;
 }
